@@ -43,7 +43,7 @@ TIKTOK_API = "https://www.tikwm.com/api/"
 URL_PATTERN = r'(https?://[^\s]+)'
 
 # 📢 ADD YOUR CHANNELS HERE (e.g., ["@channel1", "@channel2"])
-CHANNELS = ["@CODE_X_HABESHA"] 
+CHANNELS = ["@CODEX_HABESHA"] 
 
 bot = telebot.TeleBot(API_TOKEN)
 LINE = "━━━━━━━━━━━━━━━━━━"
