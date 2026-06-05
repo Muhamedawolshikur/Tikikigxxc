@@ -38,7 +38,7 @@ if not API_TOKEN:
 ADMIN_ID = int(ADMIN_ID_ENV)
 BOT_OWNER_ID = ADMIN_ID  # Fixed the missing BOT_OWNER_ID bug
 
-BOT_OWNER_USERNAME = "@Tiktokantiwatermarkbot"
+BOT_OWNER_USERNAME = "@Tiktokvipdownloaderbot"
 TIKTOK_API = "https://www.tikwm.com/api/"
 URL_PATTERN = r'(https?://[^\s]+)'
 
