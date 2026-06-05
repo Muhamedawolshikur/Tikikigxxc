@@ -25,9 +25,10 @@ apihelper.CONNECT_TIMEOUT = 90
 apihelper.READ_TIMEOUT = 90
 
 # --- 2. CONFIGURATION ---
-API_TOKEN = '8657098039:AAE4qoR5ayJCawBAnsM726bVn8cZO2WXu-0'
-CHANNELS = ['@CODEX_habesha', '@officialcoders'] 
-BOT_OWNER_ID = 8700421304 
+# --- [ 2. CONFIGURATION ] ---
+API_TOKEN = os.environ.get('API_TOKEN')
+ADMIN_ID = int(os.environ.get('ADMIN_ID', 8700421304))
+
 BOT_OWNER_USERNAME = "@Tiktokantiwatermarkbot"
 TIKTOK_API = "https://www.tikwm.com/api/"
 
